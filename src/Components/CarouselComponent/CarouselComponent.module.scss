@@ -1,0 +1,22 @@
+.carouselCaption {
+  top: 30%;
+  bottom: 0;
+  p {
+    width: 350px;
+    text-align: left;
+  }
+  h3 {
+    width: 200px;
+    text-align: left;
+  }
+}
+.carouselControl {
+  .sr-only {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .carouselCaption {
+    top: 0;
+  }
+}
